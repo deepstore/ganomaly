@@ -32,7 +32,7 @@ def evaluate(labels, scores, metric='roc'):
     else:
         raise NotImplementedError("Check the evaluation metric.")
 
-##
+
 def roc(labels, scores, saveto=None):
     """Compute ROC curve and ROC area for each class"""
     fpr = dict()
