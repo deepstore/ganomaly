@@ -21,7 +21,7 @@ rc('text', usetex=True)
 
 def evaluate(labels, scores, metric='roc'):
     if metric == 'roc':
-        return roc(labels, scores)
+        return roc(labels, scores, "./")
     elif metric == 'auprc':
         return auprc(labels, scores)
     elif metric == 'f1_score':

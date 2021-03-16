@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # Run MNIST experiment for each individual dataset.
 # For each anomalous digit
 for m in $(seq 0 2)

@@ -2,6 +2,17 @@
 
 This repository contains PyTorch implementation of the following paper: GANomaly: Semi-Supervised Anomaly Detection via Adversarial Training [[1]](#reference)
 
+## NOTE:
+
+use python 3.6 otherwize you might face something problem...a
+
+```
+$ pipenv shell --python=3.6
+$ pip install --upgrade setuptools
+```
+
+
+
 ##  1. Table of Contents
 - [GANomaly](#ganomaly)
     - [Table of Contents](#table-of-contents)

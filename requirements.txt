@@ -22,11 +22,14 @@ requests==2.22.0
 scikit-learn==0.21.2
 scipy==1.3.0
 six==1.12.0
-torch==1.2.0
+torch==1.4.0
 torchfile==0.1.0
-torchvision==0.4
+torchvision==0.5
 tornado==6.0.3
 tqdm==4.33.0
 urllib3==1.25.3
 visdom==0.1.8.8
 websocket-client==0.56.0
+Cython
+jupyterlab
+latex
